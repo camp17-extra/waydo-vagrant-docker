@@ -1,0 +1,21 @@
+version: '2'
+
+volumes:
+  db-data:
+    driver: local
+
+services:
+
+  nginx:
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile
+    container_name: nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./_log/nginx:/var/log/nginx
+    # volumes_from:
+    #   - web
+    # depends_on:
+    #   - web
