@@ -1,11 +1,11 @@
-# 以下からはファイル
+# file
 
 .DS_Store
 ubuntu-xenial-16.04-cloudimg-console.log
 
-# 以下からはディレクトリ
+# directory
 
 /.vagrant/
 /docker/_log/
-# 「IntelliJ IDEA」でプロジェクトを起動すると自動で生成されるディレクトリ
+# IntelliJ IDEA でプロジェクトを起動すると自動で生成されるディレクトリ
 /.idea/
