@@ -2,3 +2,5 @@
 /.vagrant
 ubuntu-xenial-16.04-cloudimg-console.log
 /docker/_log
+# RubyMineでプロジェクトを起動すると自動で生成されるディレクトリ
+/.idea/
