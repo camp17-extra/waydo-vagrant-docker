@@ -1,5 +1,9 @@
+# 以下からはファイル
+
 .DS_Store
 ubuntu-xenial-16.04-cloudimg-console.log
+
+# 以下からはディレクトリ
 
 /.vagrant/
 /docker/_log/
